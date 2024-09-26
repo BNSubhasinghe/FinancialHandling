@@ -1,0 +1,48 @@
+.analytics {
+  padding: 20px;
+}
+
+.transactions-count {
+  box-shadow: 0 0 2px grey;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: start;
+}
+
+.analytics h4 {
+  font-size: 20px;
+  text-align: start;
+  color: grey;
+  font-weight: 600;
+}
+
+.analytics h5 {
+  font-size: 16px;
+  color: grey;
+  text-align: start;
+}
+
+/* Add styles for income and expense color coding */
+.income-card {
+  border-left: 5px solid green;
+}
+
+.expense-card {
+  border-left: 5px solid red;
+}
+
+/* For category-wise cards */
+.category-card {
+  padding: 5px 20px;
+  box-shadow: 0 0 2px grey;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.income-category-card {
+  background-color: rgba(0, 255, 0, 0.1); /* light green background */
+}
+
+.expense-category-card {
+  background-color: rgba(255, 0, 0, 0.1); /* light red background */
+}
